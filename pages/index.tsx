@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Button, SearchBar } from 'zarm'
 import styles from '../styles/Home.module.css'
+import 'zarm/dist/zarm.css'
 
 export default function Home() {
   return (
@@ -16,6 +18,10 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <p>
+          <Button theme="primary">Hello Zarm</Button>
+          <SearchBar />
+        </p>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
