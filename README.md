@@ -1,2 +1,2 @@
 # zarm-nextjs-demo
-Starter template with Vite, [Zarm](https://zarm.design) and TypeScript
+Starter template with Nextjs, [Zarm](https://zarm.design) and TypeScript
